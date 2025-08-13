@@ -83,6 +83,7 @@ nav a:hover {
 .hero-content p {
     font-size: 18px;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 .hero-content button {
     padding: 10px 20px;
@@ -105,7 +106,7 @@ nav a:hover {
 }
 .feature-item {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid rgba(255, 215, 0, 0.5);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.05);
@@ -126,6 +127,12 @@ nav a:hover {
 }
 .feature-item h3 {
     color: var(--gold);
+    margin-bottom: 10px;
+}
+.feature-item p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ddd;
 }
 
 .gallery {
